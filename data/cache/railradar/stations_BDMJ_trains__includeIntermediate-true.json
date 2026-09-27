@@ -1,0 +1,4274 @@
+{
+  "data": {
+    "count": 137,
+    "includeIntermediate": true,
+    "station": {
+      "city": "Bhodwal Majri",
+      "code": "BDMJ",
+      "elevation_m": 222,
+      "facilities": [],
+      "lat": 29.1852264,
+      "lng": 77.0084189,
+      "name": "Bhodwal Majri",
+      "popularity": 5,
+      "railwayLines": null,
+      "stationType": "station"
+    },
+    "trains": [
+      {
+        "stop": {
+          "arrival": "00:08",
+          "arrivalDay": 2,
+          "departure": "00:08",
+          "departureDay": 2,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KRTP",
+            "name": "Kartoli Punjab"
+          },
+          "name": "Kartoli Punjab Himachal Express",
+          "number": "14053",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "00:21",
+          "arrivalDay": 4,
+          "departure": "00:21",
+          "departureDay": 4,
+          "distance": 3447,
+          "sequence": 511,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Tiruparankundram - Amritsar Special",
+          "number": "06903",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "TDN",
+            "name": "Tiruparankundram"
+          },
+          "type": "Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "02:12",
+          "arrivalDay": 2,
+          "departure": "02:12",
+          "departureDay": 2,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SFG",
+            "name": "Subedarganj"
+          },
+          "name": "Jammu Mail",
+          "number": "20434",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "02:42",
+          "arrivalDay": 2,
+          "departure": "02:42",
+          "departureDay": 2,
+          "distance": 511,
+          "sequence": 71,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "AII",
+            "name": "Ajmer Jn"
+          },
+          "name": "Pooja SF Express",
+          "number": "12414",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "02:43",
+          "arrivalDay": 2,
+          "departure": "02:43",
+          "departureDay": 2,
+          "distance": 564,
+          "sequence": 76,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DEE",
+            "name": "Delhi Sarai Rohilla"
+          },
+          "name": "Rohilla Ac SF Express",
+          "number": "22402",
+          "runDays": [
+            "tue",
+            "thu",
+            "sun"
+          ],
+          "source": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "02:57",
+          "arrivalDay": 2,
+          "departure": "02:57",
+          "departureDay": 2,
+          "distance": 511,
+          "sequence": 71,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DEE",
+            "name": "Delhi Sarai Rohilla"
+          },
+          "name": "Jammutavi - Delhi Sarai Rohilla Duronto Express",
+          "number": "12266",
+          "runDays": [
+            "mon",
+            "wed",
+            "sat"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Duronto Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "03:08",
+          "arrivalDay": 2,
+          "departure": "03:08",
+          "departureDay": 2,
+          "distance": 360,
+          "sequence": 49,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Delhi Jn. Himachal Express",
+          "number": "14054",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KRTP",
+            "name": "Kartoli Punjab"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:02",
+          "arrivalDay": 2,
+          "departure": "04:02",
+          "departureDay": 2,
+          "distance": 202,
+          "sequence": 27,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "HWH",
+            "name": "Howrah Jn"
+          },
+          "name": "Netaji Express",
+          "number": "13052",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:26",
+          "arrivalDay": 2,
+          "departure": "04:26",
+          "departureDay": 2,
+          "distance": 789,
+          "sequence": 98,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ANDI",
+            "name": "Adarsh Nagar Delhi"
+          },
+          "name": "Badgam - Adarsh Nagar Delhi Special",
+          "number": "00462",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "BDGM",
+            "name": "Badgam"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:38",
+          "arrivalDay": 3,
+          "departure": "04:38",
+          "departureDay": 3,
+          "distance": 1423,
+          "sequence": 239,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Amrapali Express",
+          "number": "15707",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KIR",
+            "name": "Katihar Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:40",
+          "arrivalDay": 2,
+          "departure": "04:40",
+          "departureDay": 2,
+          "distance": 631,
+          "sequence": 85,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "TATA",
+            "name": "Tatanagar Jn"
+          },
+          "name": "Tatanagar Express",
+          "number": "18102",
+          "runDays": [
+            "mon",
+            "wed",
+            "sat"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:40",
+          "arrivalDay": 2,
+          "departure": "04:40",
+          "departureDay": 2,
+          "distance": 631,
+          "sequence": 85,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SBP",
+            "name": "Sambalpur Jn"
+          },
+          "name": "Sambalpur Express",
+          "number": "18310",
+          "runDays": [
+            "tue",
+            "thu",
+            "fri",
+            "sun"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:43",
+          "arrivalDay": 1,
+          "departure": "04:43",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "MAO",
+            "name": "Madgaon Jn"
+          },
+          "name": "Goa Sampark Kranti Express",
+          "number": "12450",
+          "runDays": [
+            "mon",
+            "sat"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "04:53",
+          "arrivalDay": 3,
+          "departure": "04:53",
+          "departureDay": 3,
+          "distance": 1608,
+          "sequence": 224,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Amritsar Express",
+          "number": "11057",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "CSMT",
+            "name": "Mumbai CSMT"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:02",
+          "arrivalDay": 2,
+          "departure": "05:02",
+          "departureDay": 2,
+          "distance": 511,
+          "sequence": 71,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Jammutavi - New Delhi Rajdhani Express",
+          "number": "12426",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Rajdhani Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:15",
+          "arrivalDay": 1,
+          "departure": "05:16",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Panipat - New Delhi MEMU Express",
+          "number": "64464",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:22",
+          "arrivalDay": 2,
+          "departure": "05:22",
+          "departureDay": 2,
+          "distance": 710,
+          "sequence": 113,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Unchahar Express",
+          "number": "14217",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PYGS",
+            "name": "Prayagraj Sangam"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:26",
+          "arrivalDay": 2,
+          "departure": "05:26",
+          "departureDay": 2,
+          "distance": 1053,
+          "sequence": 146,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Malwa SF Express",
+          "number": "12919",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DADN",
+            "name": "Dr. Ambedkar Nagar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:43",
+          "arrivalDay": 2,
+          "departure": "05:43",
+          "departureDay": 2,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Uttar Sampark Kranti Express",
+          "number": "12446",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "05:54",
+          "arrivalDay": 2,
+          "departure": "05:54",
+          "departureDay": 2,
+          "distance": 388,
+          "sequence": 51,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "AGC",
+            "name": "Agra Cantt Jn"
+          },
+          "name": "Hoshiarpur - Agra Cantt Express",
+          "number": "11906",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "HSX",
+            "name": "Hoshiarpur"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:16",
+          "arrivalDay": 1,
+          "departure": "06:16",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "YPR",
+            "name": "Yesvantpur Jn"
+          },
+          "name": "Yesvantpur Karnataka Sampark Kranti Express",
+          "number": "22686",
+          "runDays": [
+            "tue",
+            "sat"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:16",
+          "arrivalDay": 2,
+          "departure": "06:16",
+          "departureDay": 2,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "VSKP",
+            "name": "Visakhapatnam"
+          },
+          "name": "Hirakud Express",
+          "number": "20808",
+          "runDays": [
+            "wed",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:24",
+          "arrivalDay": 1,
+          "departure": "06:25",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "GZB",
+            "name": "Ghaziabad"
+          },
+          "name": "Panipat - Ghaziabad MEMU Express",
+          "number": "64472",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:25",
+          "arrivalDay": 1,
+          "departure": "06:26",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Delhi - Panipat MEMU Express",
+          "number": "64531",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:33",
+          "arrivalDay": 1,
+          "departure": "06:33",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "AADR",
+            "name": "Amb Andaura"
+          },
+          "name": "New Delhi - Amb Andaura Vande Bharat Express",
+          "number": "22447",
+          "runDays": [
+            "mon",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:43",
+          "arrivalDay": 1,
+          "departure": "06:43",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "New Delhi - SMVD Katra Vande Bharat Express",
+          "number": "22439",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:42",
+          "arrivalDay": 1,
+          "departure": "06:43",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Panipat - Delhi Local",
+          "number": "64002",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "EMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:46",
+          "arrivalDay": 2,
+          "departure": "06:46",
+          "departureDay": 2,
+          "distance": 1447.4,
+          "sequence": 227,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Sarvodaya SF Express",
+          "number": "12473",
+          "runDays": [
+            "sat"
+          ],
+          "source": {
+            "code": "GIMB",
+            "name": "Gandhidham BG"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:48",
+          "arrivalDay": 2,
+          "departure": "06:48",
+          "departureDay": 2,
+          "distance": 1435,
+          "sequence": 220,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Swaraj Express",
+          "number": "12471",
+          "runDays": [
+            "mon",
+            "thu",
+            "fri",
+            "sun"
+          ],
+          "source": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:48",
+          "arrivalDay": 2,
+          "departure": "06:48",
+          "departureDay": 2,
+          "distance": 1465,
+          "sequence": 212,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Vaishno Devi Katra SF Express",
+          "number": "12475",
+          "runDays": [
+            "tue"
+          ],
+          "source": {
+            "code": "HAPA",
+            "name": "Hapa"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "06:48",
+          "arrivalDay": 2,
+          "departure": "06:48",
+          "departureDay": 2,
+          "distance": 1474,
+          "sequence": 213,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Vaishno Devi Katra SF Express",
+          "number": "12477",
+          "runDays": [
+            "wed"
+          ],
+          "source": {
+            "code": "JAM",
+            "name": "Jamnagar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:04",
+          "arrivalDay": 1,
+          "departure": "07:05",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Panipat - New Delhi Local",
+          "number": "64470",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "EMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:08",
+          "arrivalDay": 1,
+          "departure": "07:08",
+          "departureDay": 1,
+          "distance": 56,
+          "sequence": 12,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "BDGM",
+            "name": "Badgam"
+          },
+          "name": "Adarsh Nagar Delhi - Badgam Special",
+          "number": "00461",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ANDI",
+            "name": "Adarsh Nagar Delhi"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:17",
+          "arrivalDay": 1,
+          "departure": "07:18",
+          "departureDay": 1,
+          "distance": 91,
+          "sequence": 14,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "NZM",
+            "name": "Hazrat Nizamuddin Jn"
+          },
+          "name": "Kurukshetra - Hazrat Nizamuddin MEMU Express",
+          "number": "64462",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:18",
+          "arrivalDay": 3,
+          "departure": "07:18",
+          "departureDay": 3,
+          "distance": 2909,
+          "sequence": 418,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Kerala Sampark Kranti Express",
+          "number": "12217",
+          "runDays": [
+            "mon",
+            "sat"
+          ],
+          "source": {
+            "code": "TVCN",
+            "name": "Thiruvananthapuram North"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:18",
+          "arrivalDay": 3,
+          "departure": "07:18",
+          "departureDay": 3,
+          "distance": 2909,
+          "sequence": 418,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Amritsar SF Express",
+          "number": "12483",
+          "runDays": [
+            "wed"
+          ],
+          "source": {
+            "code": "TVCN",
+            "name": "Thiruvananthapuram North"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:36",
+          "arrivalDay": 1,
+          "departure": "07:36",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Shan-e-punjab Express",
+          "number": "12497",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "07:36",
+          "arrivalDay": 1,
+          "departure": "07:37",
+          "departureDay": 1,
+          "distance": 91,
+          "sequence": 14,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Kurukshetra - Delhi Local",
+          "number": "64452",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:07",
+          "arrivalDay": 1,
+          "departure": "08:07",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "New Delhi - Amritsar Swarn Shatabdi Express",
+          "number": "12029",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:07",
+          "arrivalDay": 1,
+          "departure": "08:07",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "New Delhi - Amritsar Shatabdi Express",
+          "number": "12031",
+          "runDays": [
+            "thu"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:09",
+          "arrivalDay": 2,
+          "departure": "08:09",
+          "departureDay": 2,
+          "distance": 1430,
+          "sequence": 180,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "name": "Sainagar Shirdi - Kalka Express",
+          "number": "22455",
+          "runDays": [
+            "tue",
+            "sat"
+          ],
+          "source": {
+            "code": "SNSI",
+            "name": "Sainagar Shirdi"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:22",
+          "arrivalDay": 1,
+          "departure": "08:22",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "name": "Bandra Terminus SF Express",
+          "number": "22452",
+          "runDays": [
+            "wed",
+            "sun"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:34",
+          "arrivalDay": 1,
+          "departure": "08:34",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "name": "New Delhi - Kalka Shatabdi Express",
+          "number": "12011",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:37",
+          "arrivalDay": 2,
+          "departure": "08:37",
+          "departureDay": 2,
+          "distance": 1344,
+          "sequence": 181,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "name": "Mctm Udhampur SF Express",
+          "number": "20847",
+          "runDays": [
+            "wed"
+          ],
+          "source": {
+            "code": "DURG",
+            "name": "Durg"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:58",
+          "arrivalDay": 2,
+          "departure": "08:58",
+          "departureDay": 2,
+          "distance": 511,
+          "sequence": 71,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "PUNE",
+            "name": "Pune Jn"
+          },
+          "name": "Jhelum Express",
+          "number": "11078",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "08:59",
+          "arrivalDay": 2,
+          "departure": "08:59",
+          "departureDay": 2,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Shri Shakti Ac SF Express",
+          "number": "22462",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:02",
+          "arrivalDay": 1,
+          "departure": "09:02",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "PTK",
+            "name": "Pathankot"
+          },
+          "name": "Pathankot SF Express",
+          "number": "22429",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:13",
+          "arrivalDay": 1,
+          "departure": "09:13",
+          "departureDay": 1,
+          "distance": 202,
+          "sequence": 27,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Kalka - New Delhi Shatabdi Express",
+          "number": "12006",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:22",
+          "arrivalDay": 2,
+          "departure": "09:22",
+          "departureDay": 2,
+          "distance": 1352,
+          "sequence": 187,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "name": "Mctm Udhampur SF Express",
+          "number": "12549",
+          "runDays": [
+            "tue"
+          ],
+          "source": {
+            "code": "DURG",
+            "name": "Durg"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:27",
+          "arrivalDay": 1,
+          "departure": "09:28",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "name": "New Delhi - Kurukshetra MEMU Express",
+          "number": "64465",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:41",
+          "arrivalDay": 3,
+          "departure": "09:41",
+          "departureDay": 3,
+          "distance": 2470,
+          "sequence": 335,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Tirupati - Jammutavi Humsafar Express",
+          "number": "22705",
+          "runDays": [
+            "tue"
+          ],
+          "source": {
+            "code": "TPTY",
+            "name": "Tirupati"
+          },
+          "type": "Humsafar Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:57",
+          "arrivalDay": 1,
+          "departure": "09:57",
+          "departureDay": 1,
+          "distance": 564,
+          "sequence": 76,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DURG",
+            "name": "Durg"
+          },
+          "name": "MCTM Udhampur - Durg Express",
+          "number": "20848",
+          "runDays": [
+            "fri"
+          ],
+          "source": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:57",
+          "arrivalDay": 1,
+          "departure": "09:57",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NGP",
+            "name": "Nagpur Jn"
+          },
+          "name": "Nagpur Ac SF Express",
+          "number": "22126",
+          "runDays": [
+            "mon"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "09:58",
+          "arrivalDay": 1,
+          "departure": "09:58",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SHC",
+            "name": "Saharsa Jn"
+          },
+          "name": "Amritsar - Saharsa Garib Rath Express",
+          "number": "12204",
+          "runDays": [
+            "wed",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Garib Rath Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:05",
+          "arrivalDay": 2,
+          "departure": "10:05",
+          "departureDay": 2,
+          "distance": 1519,
+          "sequence": 270,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Amritsar Jallianwala Bagh Express",
+          "number": "12379",
+          "runDays": [
+            "fri"
+          ],
+          "source": {
+            "code": "SDAH",
+            "name": "Sealdah"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:13",
+          "arrivalDay": 1,
+          "departure": "10:13",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Amritsar - New Delhi Shatabdi Express",
+          "number": "12014",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:13",
+          "arrivalDay": 2,
+          "departure": "10:13",
+          "departureDay": 2,
+          "distance": 731,
+          "sequence": 95,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "name": "Kurukshetra Junction Gita Jayanti Express",
+          "number": "11841",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KURJ",
+            "name": "Khajuraho"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:18",
+          "arrivalDay": 1,
+          "departure": "10:18",
+          "departureDay": 1,
+          "distance": 361,
+          "sequence": 46,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Daulatpur Chauk - New Delhi Shatabdi Express",
+          "number": "12058",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLPC",
+            "name": "Daulatpur Chauk"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:20",
+          "arrivalDay": 1,
+          "departure": "10:21",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "umb Un Reserved Express",
+          "number": "04404",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:36",
+          "arrivalDay": 1,
+          "departure": "10:36",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "TDN",
+            "name": "Tiruparankundram"
+          },
+          "name": "Amritsar - Tiruparankundram Special",
+          "number": "06904",
+          "runDays": [
+            "mon"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:42",
+          "arrivalDay": 1,
+          "departure": "10:43",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Panipat - Delhi MEMU Express",
+          "number": "64536",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "10:59",
+          "arrivalDay": 1,
+          "departure": "10:59",
+          "departureDay": 1,
+          "distance": 457,
+          "sequence": 63,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Fazilka - Delhi Intercity Express",
+          "number": "14508",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "FKA",
+            "name": "Fazilka"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "11:12",
+          "arrivalDay": 2,
+          "departure": "11:12",
+          "departureDay": 2,
+          "distance": 1406,
+          "sequence": 230,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Chandigarh SF Express",
+          "number": "22451",
+          "runDays": [
+            "mon",
+            "thu"
+          ],
+          "source": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "11:13",
+          "arrivalDay": 2,
+          "departure": "11:13",
+          "departureDay": 2,
+          "distance": 1536,
+          "sequence": 196,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "AADR",
+            "name": "Amb Andaura"
+          },
+          "name": "Amb Andaura SF Express",
+          "number": "22709",
+          "runDays": [
+            "tue"
+          ],
+          "source": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "11:22",
+          "arrivalDay": 2,
+          "departure": "11:22",
+          "departureDay": 2,
+          "distance": 1531,
+          "sequence": 196,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Nanded - Jammutavi Humsafar Express",
+          "number": "12751",
+          "runDays": [
+            "fri"
+          ],
+          "source": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "type": "Humsafar Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "11:36",
+          "arrivalDay": 1,
+          "departure": "11:36",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "name": "Sachkhand Express",
+          "number": "12716",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:04",
+          "arrivalDay": 1,
+          "departure": "12:04",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "TVCN",
+            "name": "Thiruvananthapuram North"
+          },
+          "name": "Kerala Sampark Kranti Express",
+          "number": "12218",
+          "runDays": [
+            "wed",
+            "fri"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:04",
+          "arrivalDay": 1,
+          "departure": "12:04",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "TVCN",
+            "name": "Thiruvananthapuram North"
+          },
+          "name": "Thiruvananthapuram North Weekly SF Express",
+          "number": "12484",
+          "runDays": [
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:04",
+          "arrivalDay": 2,
+          "departure": "12:04",
+          "departureDay": 2,
+          "distance": 1435,
+          "sequence": 221,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Paschim SF Express",
+          "number": "12925",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:26",
+          "arrivalDay": 1,
+          "departure": "12:26",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Amritsar - Delhi Intercity Express",
+          "number": "14680",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:27",
+          "arrivalDay": 1,
+          "departure": "12:27",
+          "departureDay": 1,
+          "distance": 498,
+          "sequence": 83,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Ajmer - Chandigarh Vande Bharat Express",
+          "number": "20977",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "AII",
+            "name": "Ajmer Jn"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "12:50",
+          "arrivalDay": 1,
+          "departure": "12:50",
+          "departureDay": 1,
+          "distance": 564,
+          "sequence": 76,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DURG",
+            "name": "Durg"
+          },
+          "name": "MCTM Udhampur - Durg Express",
+          "number": "12550",
+          "runDays": [
+            "thu"
+          ],
+          "source": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:01",
+          "arrivalDay": 3,
+          "departure": "13:01",
+          "departureDay": 3,
+          "distance": 2676,
+          "sequence": 343,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Chandigarh Karnataka Sampark Kranti Express",
+          "number": "22685",
+          "runDays": [
+            "wed",
+            "sat"
+          ],
+          "source": {
+            "code": "YPR",
+            "name": "Yesvantpur Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:05",
+          "arrivalDay": 2,
+          "departure": "13:05",
+          "departureDay": 2,
+          "distance": 1157.9,
+          "sequence": 170,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Amritsar Ac SF Express",
+          "number": "22125",
+          "runDays": [
+            "sat"
+          ],
+          "source": {
+            "code": "NGP",
+            "name": "Nagpur Jn"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:06",
+          "arrivalDay": 1,
+          "departure": "13:06",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Amritsar - Delhi Vande Bharat Express",
+          "number": "22488",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:17",
+          "arrivalDay": 1,
+          "departure": "13:17",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "SMVD Katra - New Delhi Vande Bharat Express",
+          "number": "22478",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:31",
+          "arrivalDay": 1,
+          "departure": "13:31",
+          "departureDay": 1,
+          "distance": 421,
+          "sequence": 57,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Firozpur Cantt - Delhi Vande Bharat Express",
+          "number": "26462",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "FZR",
+            "name": "Firozpur Cantt"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "13:34",
+          "arrivalDay": 1,
+          "departure": "13:35",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Delhi - Panipat MEMU Express",
+          "number": "64533",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:02",
+          "arrivalDay": 1,
+          "departure": "14:02",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "FKA",
+            "name": "Fazilka"
+          },
+          "name": "Delhi - Fazilka Intercity Express",
+          "number": "14507",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:05",
+          "arrivalDay": 2,
+          "departure": "14:05",
+          "departureDay": 2,
+          "distance": 1695,
+          "sequence": 210,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Sachkhand Express",
+          "number": "12715",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:16",
+          "arrivalDay": 1,
+          "departure": "14:17",
+          "departureDay": 1,
+          "distance": 91,
+          "sequence": 14,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Kurukshetra - Delhi MEMU Express",
+          "number": "64454",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:26",
+          "arrivalDay": 1,
+          "departure": "14:26",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Chandigarh - New Delhi Shatabdi Express",
+          "number": "12046",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:36",
+          "arrivalDay": 1,
+          "departure": "14:36",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KIR",
+            "name": "Katihar Jn"
+          },
+          "name": "Amrapali Express",
+          "number": "15708",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:44",
+          "arrivalDay": 1,
+          "departure": "14:44",
+          "departureDay": 1,
+          "distance": 424,
+          "sequence": 56,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "name": "Paschim SF Express",
+          "number": "12926",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "14:46",
+          "arrivalDay": 1,
+          "departure": "14:46",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Delhi - Amritsar Intercity Express",
+          "number": "14679",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:02",
+          "arrivalDay": 2,
+          "departure": "15:02",
+          "departureDay": 2,
+          "distance": 1327,
+          "sequence": 226,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Saharsa - Amritsar Garib Rath Express",
+          "number": "12203",
+          "runDays": [
+            "mon",
+            "thu",
+            "sun"
+          ],
+          "source": {
+            "code": "SHC",
+            "name": "Saharsa Jn"
+          },
+          "type": "Garib Rath Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:11",
+          "arrivalDay": 2,
+          "departure": "15:11",
+          "departureDay": 2,
+          "distance": 1981,
+          "sequence": 272,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "Goa Sampark Kranti Express",
+          "number": "12449",
+          "runDays": [
+            "tue",
+            "wed"
+          ],
+          "source": {
+            "code": "MAO",
+            "name": "Madgaon Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:15",
+          "arrivalDay": 1,
+          "departure": "15:16",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "UMB",
+            "name": "Ambala Cantt Jn"
+          },
+          "name": "Delhi - Ambala Cantt Special",
+          "number": "04403",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:26",
+          "arrivalDay": 1,
+          "departure": "15:26",
+          "departureDay": 1,
+          "distance": 489,
+          "sequence": 70,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "name": "Pathankot - Delhi Express",
+          "number": "22430",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PTK",
+            "name": "Pathankot"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:33",
+          "arrivalDay": 1,
+          "departure": "15:33",
+          "departureDay": 1,
+          "distance": 511,
+          "sequence": 71,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "TPTY",
+            "name": "Tirupati"
+          },
+          "name": "Jammutavi - Tirupati Humsafar Express",
+          "number": "22706",
+          "runDays": [
+            "fri"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Humsafar Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:37",
+          "arrivalDay": 1,
+          "departure": "15:37",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DLPC",
+            "name": "Daulatpur Chauk"
+          },
+          "name": "New Delhi - Daulatpur Chauk Shatabdi Express",
+          "number": "12057",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:40",
+          "arrivalDay": 2,
+          "departure": "15:40",
+          "departureDay": 2,
+          "distance": 2185,
+          "sequence": 298,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Hirakud Express",
+          "number": "20807",
+          "runDays": [
+            "tue",
+            "fri",
+            "sat"
+          ],
+          "source": {
+            "code": "VSKP",
+            "name": "Visakhapatnam"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:44",
+          "arrivalDay": 1,
+          "departure": "15:44",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "New Delhi - SMVD Katra Vande Bharat Express",
+          "number": "22477",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "15:59",
+          "arrivalDay": 1,
+          "departure": "15:59",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "Delhi - Amritsar Vande Bharat Express",
+          "number": "22487",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "16:05",
+          "arrivalDay": 1,
+          "departure": "16:05",
+          "departureDay": 1,
+          "distance": 565,
+          "sequence": 79,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "name": "Jammutavi - Nanded Humsafar Express",
+          "number": "12752",
+          "runDays": [
+            "sun"
+          ],
+          "source": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "type": "Humsafar Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "16:24",
+          "arrivalDay": 1,
+          "departure": "16:24",
+          "departureDay": 1,
+          "distance": 91,
+          "sequence": 14,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KURJ",
+            "name": "Khajuraho"
+          },
+          "name": "Gita Jayanti Express",
+          "number": "11842",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "16:42",
+          "arrivalDay": 1,
+          "departure": "16:42",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "FZR",
+            "name": "Firozpur Cantt"
+          },
+          "name": "Delhi - Firozpur Cantt Vande Bharat Express",
+          "number": "26461",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "17:17",
+          "arrivalDay": 1,
+          "departure": "17:17",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "name": "New Delhi - Amritsar Shatabdi Express",
+          "number": "12013",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "17:32",
+          "arrivalDay": 1,
+          "departure": "17:32",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "AII",
+            "name": "Ajmer Jn"
+          },
+          "name": "Chandigarh - Ajmer Vande Bharat Express",
+          "number": "20978",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "17:37",
+          "arrivalDay": 1,
+          "departure": "17:37",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "name": "Delhi - Kalka Express",
+          "number": "14331",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "17:42",
+          "arrivalDay": 1,
+          "departure": "17:42",
+          "departureDay": 1,
+          "distance": 346,
+          "sequence": 44,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Amb Andaura - New Delhi Vande Bharat Express",
+          "number": "22448",
+          "runDays": [
+            "mon",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "AADR",
+            "name": "Amb Andaura"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "17:53",
+          "arrivalDay": 1,
+          "departure": "17:54",
+          "departureDay": 1,
+          "distance": 24,
+          "sequence": 4,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "GZB",
+            "name": "Ghaziabad"
+          },
+          "name": "Panipat - Ghaziabad MEMU Express",
+          "number": "64534",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "18:02",
+          "arrivalDay": 1,
+          "departure": "18:02",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "name": "New Delhi - Kalka Shatabdi Express",
+          "number": "12005",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "18:25",
+          "arrivalDay": 1,
+          "departure": "18:26",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Delhi - Panipat MEMU Express",
+          "number": "64451",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "18:27",
+          "arrivalDay": 1,
+          "departure": "18:27",
+          "departureDay": 1,
+          "distance": 436,
+          "sequence": 62,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CSMT",
+            "name": "Mumbai CSMT"
+          },
+          "name": "Mumbai Csmt Express",
+          "number": "11058",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "18:41",
+          "arrivalDay": 1,
+          "departure": "18:41",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "DADN",
+            "name": "Dr. Ambedkar Nagar"
+          },
+          "name": "Malwa SF Express",
+          "number": "12920",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:10",
+          "arrivalDay": 1,
+          "departure": "19:10",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SDAH",
+            "name": "Sealdah"
+          },
+          "name": "Sealdah Jallianwala Bagh Express",
+          "number": "12380",
+          "runDays": [
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:14",
+          "arrivalDay": 1,
+          "departure": "19:14",
+          "departureDay": 1,
+          "distance": 178,
+          "sequence": 25,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "PYGS",
+            "name": "Prayagraj Sangam"
+          },
+          "name": "Unchahar Express",
+          "number": "14218",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:13",
+          "arrivalDay": 1,
+          "departure": "19:14",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Delhi - Panipat Local",
+          "number": "64453",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:30",
+          "arrivalDay": 1,
+          "departure": "19:31",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "New Delhi - Panipat Local",
+          "number": "64469",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "EMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:46",
+          "arrivalDay": 1,
+          "departure": "19:47",
+          "departureDay": 1,
+          "distance": 91,
+          "sequence": 24,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Ghaziabad - Panipat MEMU Express",
+          "number": "64471",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "GZB",
+            "name": "Ghaziabad"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:57",
+          "arrivalDay": 1,
+          "departure": "19:57",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Shri Shakti Ac SF Express",
+          "number": "22461",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:58",
+          "arrivalDay": 1,
+          "departure": "19:58",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "CDG",
+            "name": "Chandigarh"
+          },
+          "name": "New Delhi - Chandigarh Shatabdi Express",
+          "number": "12045",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:58",
+          "arrivalDay": 1,
+          "departure": "19:58",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "BDTS",
+            "name": "Bandra Terminus"
+          },
+          "name": "Swaraj Express",
+          "number": "12472",
+          "runDays": [
+            "tue",
+            "wed",
+            "fri",
+            "sat"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:58",
+          "arrivalDay": 1,
+          "departure": "19:58",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "GIMB",
+            "name": "Gandhidham BG"
+          },
+          "name": "Sarvodaya SF Express",
+          "number": "12474",
+          "runDays": [
+            "thu"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:58",
+          "arrivalDay": 1,
+          "departure": "19:58",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "HAPA",
+            "name": "Hapa"
+          },
+          "name": "SMVD Katra - Hapa Express",
+          "number": "12476",
+          "runDays": [
+            "mon"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "19:58",
+          "arrivalDay": 1,
+          "departure": "19:58",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAM",
+            "name": "Jamnagar"
+          },
+          "name": "Jamnagar SF Express",
+          "number": "12478",
+          "runDays": [
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "20:18",
+          "arrivalDay": 1,
+          "departure": "20:19",
+          "departureDay": 1,
+          "distance": 73,
+          "sequence": 19,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "KKDE",
+            "name": "Kurukshetra Jn"
+          },
+          "name": "Hazrat Nizamuddin - Kurukshetra MEMU Express",
+          "number": "64461",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NZM",
+            "name": "Hazrat Nizamuddin Jn"
+          },
+          "type": "MEMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "20:38",
+          "arrivalDay": 1,
+          "departure": "20:38",
+          "departureDay": 1,
+          "distance": 202,
+          "sequence": 27,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Kalka - New Delhi Shatabdi Express",
+          "number": "12012",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:00",
+          "arrivalDay": 1,
+          "departure": "21:00",
+          "departureDay": 1,
+          "distance": 202,
+          "sequence": 27,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SNSI",
+            "name": "Sainagar Shirdi"
+          },
+          "name": "Sainagar Shirdi SF Express",
+          "number": "22456",
+          "runDays": [
+            "thu",
+            "sun"
+          ],
+          "source": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:01",
+          "arrivalDay": 1,
+          "departure": "21:01",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Shan-e-punjab Express",
+          "number": "12498",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:00",
+          "arrivalDay": 1,
+          "departure": "21:01",
+          "departureDay": 1,
+          "distance": 65,
+          "sequence": 15,
+          "stopType": "halt"
+        },
+        "train": {
+          "destination": {
+            "code": "PNP",
+            "name": "Panipat Jn"
+          },
+          "name": "Delhi - Panipat Local",
+          "number": "64001",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "DLI",
+            "name": "Delhi Jn"
+          },
+          "type": "EMU"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:27",
+          "arrivalDay": 1,
+          "departure": "21:27",
+          "departureDay": 1,
+          "distance": 690,
+          "sequence": 108,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Jammu Mail",
+          "number": "20433",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SFG",
+            "name": "Subedarganj"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:28",
+          "arrivalDay": 1,
+          "departure": "21:28",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "New Delhi - Jammutavi Rajdhani Express",
+          "number": "12425",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Rajdhani Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:31",
+          "arrivalDay": 1,
+          "departure": "21:31",
+          "departureDay": 1,
+          "distance": 346,
+          "sequence": 44,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NED",
+            "name": "Nanded"
+          },
+          "name": "Nanded Weekly SF Express",
+          "number": "22710",
+          "runDays": [
+            "thu"
+          ],
+          "source": {
+            "code": "AADR",
+            "name": "Amb Andaura"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "21:37",
+          "arrivalDay": 1,
+          "departure": "21:37",
+          "departureDay": 1,
+          "distance": 66,
+          "sequence": 16,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "name": "Uttar Sampark Kranti Express",
+          "number": "12445",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:04",
+          "arrivalDay": 1,
+          "departure": "22:04",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Amritsar - New Delhi Swarn Shatabdi Express",
+          "number": "12030",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:04",
+          "arrivalDay": 1,
+          "departure": "22:04",
+          "departureDay": 1,
+          "distance": 382,
+          "sequence": 54,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "Amritsar - New Delhi Shatabdi Express",
+          "number": "12032",
+          "runDays": [
+            "thu"
+          ],
+          "source": {
+            "code": "ASR",
+            "name": "Amritsar"
+          },
+          "type": "Shatabdi Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:15",
+          "arrivalDay": 2,
+          "departure": "22:15",
+          "departureDay": 2,
+          "distance": 1508,
+          "sequence": 265,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "KLK",
+            "name": "Kalka"
+          },
+          "name": "Netaji Express",
+          "number": "13051",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "HWH",
+            "name": "Howrah Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:26",
+          "arrivalDay": 1,
+          "departure": "22:26",
+          "departureDay": 1,
+          "distance": 589,
+          "sequence": 78,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "NDLS",
+            "name": "New Delhi"
+          },
+          "name": "SMVD Katra - New Delhi Vande Bharat Express",
+          "number": "22440",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "SVDK",
+            "name": "Shri Mata Vaishno Devi Katra"
+          },
+          "type": "Vande Bharat Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:26",
+          "arrivalDay": 2,
+          "departure": "22:26",
+          "departureDay": 2,
+          "distance": 1439,
+          "sequence": 205,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Tatanagar - Jammutavi Express",
+          "number": "18101",
+          "runDays": [
+            "wed",
+            "fri",
+            "sun"
+          ],
+          "source": {
+            "code": "TATA",
+            "name": "Tatanagar Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:27",
+          "arrivalDay": 2,
+          "departure": "22:27",
+          "departureDay": 2,
+          "distance": 1717,
+          "sequence": 236,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Sambalpur - Jammutavi Special",
+          "number": "18309",
+          "runDays": [
+            "mon",
+            "tue",
+            "thu",
+            "sat"
+          ],
+          "source": {
+            "code": "SBP",
+            "name": "Sambalpur Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:47",
+          "arrivalDay": 2,
+          "departure": "22:47",
+          "departureDay": 2,
+          "distance": 1655,
+          "sequence": 207,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Jhelum Express",
+          "number": "11077",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "PUNE",
+            "name": "Pune Jn"
+          },
+          "type": "Mail/Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "22:52",
+          "arrivalDay": 1,
+          "departure": "22:52",
+          "departureDay": 1,
+          "distance": 506,
+          "sequence": 86,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Pooja SF Express",
+          "number": "12413",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "AII",
+            "name": "Ajmer Jn"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "23:19",
+          "arrivalDay": 1,
+          "departure": "23:19",
+          "departureDay": 1,
+          "distance": 67,
+          "sequence": 14,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "MCTM",
+            "name": "MCTM Udhampur"
+          },
+          "name": "Mctm Udhampur Ac SF Express",
+          "number": "22401",
+          "runDays": [
+            "mon",
+            "wed",
+            "sat"
+          ],
+          "source": {
+            "code": "DEE",
+            "name": "Delhi Sarai Rohilla"
+          },
+          "type": "Superfast Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "23:24",
+          "arrivalDay": 1,
+          "departure": "23:24",
+          "departureDay": 1,
+          "distance": 67,
+          "sequence": 14,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "JAT",
+            "name": "Jammutavi"
+          },
+          "name": "Delhi Sarai Rohilla - Jammutavi Duronto Express",
+          "number": "12265",
+          "runDays": [
+            "tue",
+            "fri",
+            "sun"
+          ],
+          "source": {
+            "code": "DEE",
+            "name": "Delhi Sarai Rohilla"
+          },
+          "type": "Duronto Express"
+        }
+      },
+      {
+        "stop": {
+          "arrival": "23:30",
+          "arrivalDay": 1,
+          "departure": "23:30",
+          "departureDay": 1,
+          "distance": 260,
+          "sequence": 45,
+          "stopType": "pass-through"
+        },
+        "train": {
+          "destination": {
+            "code": "HSX",
+            "name": "Hoshiarpur"
+          },
+          "name": "Hoshiarpur Express",
+          "number": "11905",
+          "runDays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "source": {
+            "code": "AGC",
+            "name": "Agra Cantt Jn"
+          },
+          "type": "Mail/Express"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "executionTime": 11,
+    "source": "database",
+    "timestamp": "2026-08-28T21:01:19+05:30",
+    "traceId": "050d8777-b55c-4091-ba18-9a56b51e6ebd"
+  },
+  "success": true
+}

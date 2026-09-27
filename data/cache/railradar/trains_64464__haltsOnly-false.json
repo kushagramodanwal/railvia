@@ -1,0 +1,361 @@
+{
+  "data": {
+    "route": [
+      {
+        "departure": "04:55",
+        "departureDay": 1,
+        "distance": 0,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 1,
+        "speedToNextStationKmph": 80,
+        "station": {
+          "code": "PNP",
+          "lat": 29.3903294,
+          "lng": 76.964085,
+          "name": "Panipat Jn"
+        }
+      },
+      {
+        "arrival": "05:01",
+        "arrivalDay": 1,
+        "departure": "05:02",
+        "departureDay": 1,
+        "distance": 8,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 2,
+        "speedToNextStationKmph": 77.1,
+        "station": {
+          "code": "DWNA",
+          "lat": 29.3180709,
+          "lng": 76.9801567,
+          "name": "Diwana"
+        }
+      },
+      {
+        "arrival": "05:09",
+        "arrivalDay": 1,
+        "departure": "05:10",
+        "departureDay": 1,
+        "distance": 17,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 3,
+        "speedToNextStationKmph": 84,
+        "station": {
+          "code": "SMK",
+          "lat": 29.2415096,
+          "lng": 77.0032892,
+          "name": "Samalkha"
+        }
+      },
+      {
+        "arrival": "05:15",
+        "arrivalDay": 1,
+        "departure": "05:16",
+        "departureDay": 1,
+        "distance": 24,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 4,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "BDMJ",
+          "lat": 29.1852264,
+          "lng": 77.0084189,
+          "name": "Bhodwal Majri"
+        }
+      },
+      {
+        "arrival": "05:21",
+        "arrivalDay": 1,
+        "departure": "05:22",
+        "departureDay": 1,
+        "distance": 29,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 5,
+        "speedToNextStationKmph": 75,
+        "station": {
+          "code": "GNU",
+          "lat": 29.1315256,
+          "lng": 77.0110886,
+          "name": "Ganaur"
+        }
+      },
+      {
+        "arrival": "05:26",
+        "arrivalDay": 1,
+        "departure": "05:27",
+        "departureDay": 1,
+        "distance": 34,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 6,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "RUG",
+          "lat": 29.0907857,
+          "lng": 77.0121466,
+          "name": "Rajlu Garhi"
+        }
+      },
+      {
+        "arrival": "05:30",
+        "arrivalDay": 1,
+        "departure": "05:31",
+        "departureDay": 1,
+        "distance": 37,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 7,
+        "speedToNextStationKmph": 68.6,
+        "station": {
+          "code": "SLKN",
+          "lat": 29.0634081,
+          "lng": 77.0128043,
+          "name": "Sandal Kalan"
+        }
+      },
+      {
+        "arrival": "05:38",
+        "arrivalDay": 1,
+        "departure": "05:39",
+        "departureDay": 1,
+        "distance": 45,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 8,
+        "speedToNextStationKmph": 75,
+        "station": {
+          "code": "SNP",
+          "lat": 28.9898429,
+          "lng": 77.0171182,
+          "name": "Sonipat"
+        }
+      },
+      {
+        "arrival": "05:43",
+        "arrivalDay": 1,
+        "departure": "05:44",
+        "departureDay": 1,
+        "distance": 50,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 9,
+        "speedToNextStationKmph": 90,
+        "station": {
+          "code": "HNN",
+          "lat": 28.9450327,
+          "lng": 77.0389386,
+          "name": "Harana Kalan"
+        }
+      },
+      {
+        "arrival": "05:48",
+        "arrivalDay": 1,
+        "departure": "05:49",
+        "departureDay": 1,
+        "distance": 56,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 10,
+        "speedToNextStationKmph": 51.4,
+        "station": {
+          "code": "RDDE",
+          "lat": 28.9040911,
+          "lng": 77.0590439,
+          "name": "Rathdhana"
+        }
+      },
+      {
+        "arrival": "05:56",
+        "arrivalDay": 1,
+        "departure": "05:57",
+        "departureDay": 1,
+        "distance": 62,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 11,
+        "speedToNextStationKmph": 27.7,
+        "station": {
+          "code": "NUR",
+          "lat": 28.8464766,
+          "lng": 77.0856631,
+          "name": "Narela"
+        }
+      },
+      {
+        "arrival": "06:10",
+        "arrivalDay": 1,
+        "departure": "06:11",
+        "departureDay": 1,
+        "distance": 68,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 12,
+        "speedToNextStationKmph": 90,
+        "station": {
+          "code": "HUK",
+          "lat": 28.8015786,
+          "lng": 77.1024832,
+          "name": "Holambi Kalan"
+        }
+      },
+      {
+        "arrival": "06:13",
+        "arrivalDay": 1,
+        "departure": "06:14",
+        "departureDay": 1,
+        "distance": 71,
+        "isHalt": true,
+        "sequence": 13,
+        "speedToNextStationKmph": 80,
+        "station": {
+          "code": "KHKN",
+          "lat": 28.7696903,
+          "lng": 77.1158609,
+          "name": "Khera Kalan"
+        }
+      },
+      {
+        "arrival": "06:17",
+        "arrivalDay": 1,
+        "departure": "06:18",
+        "departureDay": 1,
+        "distance": 75,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 14,
+        "speedToNextStationKmph": 21.8,
+        "station": {
+          "code": "BHD",
+          "lat": 28.7465404,
+          "lng": 77.1374615,
+          "name": "Badli"
+        }
+      },
+      {
+        "arrival": "06:29",
+        "arrivalDay": 1,
+        "departure": "06:30",
+        "departureDay": 1,
+        "distance": 79,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 15,
+        "speedToNextStationKmph": 30,
+        "station": {
+          "code": "ANDI",
+          "lat": 28.7144008,
+          "lng": 77.1672884,
+          "name": "Adarsh Nagar Delhi"
+        }
+      },
+      {
+        "arrival": "06:34",
+        "arrivalDay": 1,
+        "departure": "06:35",
+        "departureDay": 1,
+        "distance": 81,
+        "isHalt": true,
+        "sequence": 16,
+        "speedToNextStationKmph": 42.9,
+        "station": {
+          "code": "DAZ",
+          "lat": 28.7035041,
+          "lng": 77.1770629,
+          "name": "Delhi Azadpur"
+        }
+      },
+      {
+        "arrival": "06:42",
+        "arrivalDay": 1,
+        "departure": "06:43",
+        "departureDay": 1,
+        "distance": 86,
+        "isHalt": true,
+        "platform": "2",
+        "sequence": 17,
+        "speedToNextStationKmph": 12,
+        "station": {
+          "code": "SZM",
+          "lat": 28.6685068,
+          "lng": 77.2004935,
+          "name": "Subzi Mandi"
+        }
+      },
+      {
+        "arrival": "06:53",
+        "arrivalDay": 1,
+        "departure": "06:54",
+        "departureDay": 1,
+        "distance": 88,
+        "isHalt": true,
+        "sequence": 18,
+        "speedToNextStationKmph": 1.7,
+        "station": {
+          "code": "DSB",
+          "lat": 28.658087,
+          "lng": 77.2170087,
+          "name": "Sadar Bazar"
+        }
+      },
+      {
+        "arrival": "07:30",
+        "arrivalDay": 1,
+        "distance": 89,
+        "isHalt": true,
+        "platform": "10",
+        "sequence": 19,
+        "station": {
+          "code": "NDLS",
+          "lat": 28.6419258,
+          "lng": 77.2217499,
+          "name": "New Delhi"
+        }
+      }
+    ],
+    "train": {
+      "avgSpeed": 34.5,
+      "category": "Local",
+      "coachPosition": "GEN-GEN-GEN",
+      "destination": {
+        "code": "NDLS",
+        "lat": 28.6419258,
+        "lng": 77.2217499,
+        "name": "New Delhi"
+      },
+      "distance": 89,
+      "duration": 155,
+      "maxSpeed": 90,
+      "name": "Panipat - New Delhi MEMU Express",
+      "number": "64464",
+      "runDays": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "source": {
+        "code": "PNP",
+        "lat": 29.3903294,
+        "lng": 76.964085,
+        "name": "Panipat Jn"
+      },
+      "totalHalts": 19,
+      "type": "MEMU"
+    }
+  },
+  "meta": {
+    "executionTime": 43,
+    "source": "database",
+    "timestamp": "2026-08-28T21:00:54+05:30",
+    "traceId": "2b9f9421-aa5f-435b-92dd-a893d6c475fc"
+  },
+  "success": true
+}

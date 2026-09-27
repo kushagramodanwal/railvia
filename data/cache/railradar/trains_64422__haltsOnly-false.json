@@ -1,0 +1,189 @@
+{
+  "data": {
+    "route": [
+      {
+        "departure": "00:10",
+        "departureDay": 1,
+        "distance": 0,
+        "isHalt": true,
+        "platform": "6",
+        "sequence": 1,
+        "speedToNextStationKmph": 15,
+        "station": {
+          "code": "NDLS",
+          "lat": 28.6419258,
+          "lng": 77.2217499,
+          "name": "New Delhi"
+        }
+      },
+      {
+        "arrival": "00:14",
+        "arrivalDay": 1,
+        "departure": "00:14",
+        "departureDay": 1,
+        "distance": 1,
+        "isHalt": true,
+        "sequence": 2,
+        "speedToNextStationKmph": 24,
+        "station": {
+          "code": "CSB",
+          "lat": 28.6334521,
+          "lng": 77.2266682,
+          "name": "Shivaji Bridge"
+        }
+      },
+      {
+        "arrival": "00:19",
+        "arrivalDay": 1,
+        "departure": "00:19",
+        "departureDay": 1,
+        "distance": 3,
+        "isHalt": true,
+        "platform": "5",
+        "sequence": 3,
+        "speedToNextStationKmph": 66.7,
+        "station": {
+          "code": "TKJ",
+          "lat": 28.6281166,
+          "lng": 77.2374037,
+          "name": "Tilak Bridge"
+        }
+      },
+      {
+        "arrival": "00:24",
+        "arrivalDay": 1,
+        "departure": "00:24",
+        "departureDay": 1,
+        "distance": 9,
+        "isHalt": false,
+        "sequence": 4,
+        "speedToNextStationKmph": 66.7,
+        "station": {
+          "code": "MWC",
+          "lat": 28.6294332,
+          "lng": 77.2884872,
+          "name": "Mandawali Chander Vihar Halt"
+        }
+      },
+      {
+        "arrival": "00:28",
+        "arrivalDay": 1,
+        "departure": "00:28",
+        "departureDay": 1,
+        "distance": 13,
+        "isHalt": true,
+        "sequence": 5,
+        "speedToNextStationKmph": 36,
+        "station": {
+          "code": "ANVR",
+          "lat": 28.6498106,
+          "lng": 77.3144992,
+          "name": "Anand Vihar"
+        }
+      },
+      {
+        "arrival": "00:31",
+        "arrivalDay": 1,
+        "departure": "00:31",
+        "departureDay": 1,
+        "distance": 15,
+        "isHalt": false,
+        "sequence": 6,
+        "speedToNextStationKmph": 36,
+        "station": {
+          "code": "CNJ",
+          "lat": 28.6631056,
+          "lng": 77.331206,
+          "name": "Chander Nagar Halt"
+        }
+      },
+      {
+        "arrival": "00:31",
+        "arrivalDay": 1,
+        "departure": "00:31",
+        "departureDay": 1,
+        "distance": 15,
+        "isHalt": false,
+        "sequence": 7,
+        "speedToNextStationKmph": 36,
+        "station": {
+          "code": "DSBP",
+          "lat": 28.666,
+          "lng": 77.33521,
+          "name": "Delhi Shahdara B Panel"
+        }
+      },
+      {
+        "arrival": "00:38",
+        "arrivalDay": 1,
+        "departure": "00:38",
+        "departureDay": 1,
+        "distance": 19,
+        "isHalt": true,
+        "platform": "2",
+        "sequence": 8,
+        "speedToNextStationKmph": 19.1,
+        "station": {
+          "code": "SBB",
+          "lat": 28.6742784,
+          "lng": 77.3644349,
+          "name": "Sahibabad"
+        }
+      },
+      {
+        "arrival": "01:00",
+        "arrivalDay": 1,
+        "distance": 26,
+        "isHalt": true,
+        "platform": "6",
+        "sequence": 9,
+        "station": {
+          "code": "GZB",
+          "lat": 28.6528563,
+          "lng": 77.4282442,
+          "name": "Ghaziabad"
+        }
+      }
+    ],
+    "train": {
+      "avgSpeed": 31.2,
+      "category": "Local",
+      "coachPosition": "GEN-GEN-GEN-GEN-GEN-GEN-GEN-GEN-GEN-GEN",
+      "destination": {
+        "code": "GZB",
+        "lat": 28.6528563,
+        "lng": 77.4282442,
+        "name": "Ghaziabad"
+      },
+      "distance": 26,
+      "duration": 50,
+      "maxSpeed": 66.7,
+      "name": "New Delhi - Ghaziabad Local",
+      "number": "64422",
+      "runDays": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "source": {
+        "code": "NDLS",
+        "lat": 28.6419258,
+        "lng": 77.2217499,
+        "name": "New Delhi"
+      },
+      "totalHalts": 6,
+      "type": "EMU"
+    }
+  },
+  "meta": {
+    "executionTime": 4,
+    "source": "database",
+    "timestamp": "2026-08-28T19:45:10+05:30",
+    "traceId": "552dd858-0795-48a4-98d2-006a2af126cd"
+  },
+  "success": true
+}

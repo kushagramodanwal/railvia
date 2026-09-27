@@ -1,0 +1,94 @@
+
+══════════════════════════════════════════════════════════════════════════════
+  1. DATA — real timetable, synthetic maintenance backlog
+══════════════════════════════════════════════════════════════════════════════
+  [HYBRID] GroundedTimetableSource: timetable-derived sections from data/grounded_sections.json; 300 synthetic tasks, seed=42
+  39 sections · 300 tasks · 30-day horizon
+
+  provenance by component:
+    sections        public_timetable   REAL
+    tasks           synthetic          generated
+    traffic         public_timetable   REAL
+    crew_capacity   synthetic          generated
+
+  HYBRID. Sections and traffic derived from the published Indian Railways timetable via the RailRadar API (a third-party aggregator of public NTES data, not an official Railways endpoint). Maintenance tasks and crew capacity are SYNTHETIC — TMS/SMMS/TDMS have no public equivalent. See ASSUMPTIONS.md.
+
+  busiest section: SBB-GZB (Sahibabad - Ghaziabad)
+    364 trains/day, peak 21.7/h, floor 2.9/h
+    a flat 'no blocks above 8 trains/hour' rule would leave this
+    section unusable — hence the per-section threshold (A-14)
+
+══════════════════════════════════════════════════════════════════════════════
+  2. CRITICALITY MODEL
+══════════════════════════════════════════════════════════════════════════════
+  trained on 8000 synthetic history records (24.9% failures)
+  held-out AUC 0.677, log-loss 0.534
+  feature importance (gain):
+      defect_severity               36.7% ██████████████
+      section_daily_trains          15.1% ██████
+      interval_fraction_elapsed     10.7% ████
+      days_to_due                    8.9% ███
+      days_since_last_done           7.9% ███
+      section_peak_trains            7.7% ███
+      duration_minutes               6.0% ██
+      days_overdue                   2.8% █
+      crew_required                  2.3% 
+      dept_engg                      1.0% 
+      dept_snt                       0.4% 
+      dept_trd                       0.3% 
+      interval_days                  0.2% 
+
+  highest-criticality work:
+    T079   0.742  TRD   ohe_wire_wear_measurement     
+    T148   0.729  S&T   track_circuit_adjustment       OVERDUE
+    T291   0.673  S&T   track_circuit_adjustment      
+    T050   0.647  ENGG  usfd_rail_testing             
+    T210   0.618  ENGG  usfd_rail_testing              OVERDUE
+
+  why the top task scored as it did:
+    defect_severity              +1.4885
+    <base value>                 -1.3237
+    section_daily_trains         +0.3503
+    days_to_due                  +0.2019
+    interval_fraction_elapsed    +0.1875
+
+══════════════════════════════════════════════════════════════════════════════
+  3. BEFORE / AFTER
+══════════════════════════════════════════════════════════════════════════════
+  Metric                                Manual    Ours (same work)     Ours (full)
+  ──────────────────────────────────────────────────────────────────────────────
+  Train-hours lost                       762.2               462.2           708.8
+  Separate blocks                          218                 191             233
+  Tasks scheduled                      218/300             216/218         268/300
+  Overdue tasks done                        73                  71              64
+  Blocks shared across departments           0                  17              18
+  Peak-hour blocks                           8                   0               0
+  Tasks finishing late                     135                 107              94
+
+  HEADLINE: 39.4% fewer train-hours lost across a 30-day horizon
+            on 39 sections with 3 departments, for identical work
+            12.4% fewer separate blocks
+  SECOND  : 50 more tasks completed than the manual process manages
+
+══════════════════════════════════════════════════════════════════════════════
+  4. SCENARIO RE-PLANNING
+══════════════════════════════════════════════════════════════════════════════
+  disruption at slot 960 on SBB-GZB: tamping machine failure, 4-hour overrun
+    136 tasks already done, 164 re-planned
+    original remaining: 340.5 train-hours
+    after re-plan     : 426.2 train-hours (+85.8)
+    status FEASIBLE, 60.5s
+
+══════════════════════════════════════════════════════════════════════════════
+  5. WHAT IS AND IS NOT REAL
+══════════════════════════════════════════════════════════════════════════════
+  REAL      section geometry, hourly traffic, day-of-week variation
+            (published Indian Railways timetable via RailRadar)
+  SYNTHETIC maintenance backlog, crew strength, failure history
+            (TMS/SMMS/TDMS have no public equivalent)
+  NOT DONE  freight paths are absent from public timetables, so
+            night traffic is undercounted — the one place our
+            figures could flatter us (A-04)
+  CAVEAT    the failure hazard the model learns is one we wrote (A-08)
+
+  total demo wall time: 184.6s

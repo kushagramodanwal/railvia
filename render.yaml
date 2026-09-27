@@ -1,0 +1,47 @@
+# Render blueprint. One service: the API, serving the UI it was built with.
+#
+# Lives at the repository root because that is where Render looks for it.
+#
+#   1. Push this repo to GitHub
+#   2. Render → New → Blueprint → pick this repository → Apply
+#   3. Fill in the four environment variables below
+#
+# This creates the service with the Docker runtime already set. A service's
+# runtime cannot be changed after creation, which is why an existing Python
+# service has to be replaced rather than converted.
+#
+# The two NEXT_PUBLIC_* values are baked into the UI at build time, so
+# changing them needs a redeploy, not just a restart. They are safe to expose:
+# the anon key is designed for browsers, and row-level security is what
+# protects the data.
+services:
+  - type: web
+    name: railvia
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter          # 'free' works but sleeps after inactivity
+    healthCheckPath: /api/health
+    envVars:
+      # The one that makes it fit. The image ships a solved plan for every
+      # month the UI can reach, so the server answers from disk and peaks at
+      # 253 MB. Solving here instead peaks at 1,148 MB — measured — and a
+      # 512 MB instance is killed before the first page renders. Set in the
+      # Dockerfile too; repeated here so it is visible in the dashboard
+      # rather than buried in an image.
+      - key: ALLOW_RUNTIME_SOLVE
+        value: "0"
+      # Only matters if the line above is ever turned back on: a 512 MB
+      # instance is OOM-killed at 4 search workers and above, since each
+      # holds its own copy of the search state. Two is also the best quality
+      # measured. See DEFAULT_WORKERS in src/optimiser/model.py.
+      - key: SOLVER_WORKERS
+        value: "2"
+      # Only these two. The server reads the NEXT_PUBLIC_ names when the
+      # unprefixed ones are absent, so the same values do not need setting
+      # twice. Both are safe to expose: the anon key is designed for
+      # browsers, and row-level security is what protects the data.
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false

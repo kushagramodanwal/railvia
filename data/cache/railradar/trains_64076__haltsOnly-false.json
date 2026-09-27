@@ -1,0 +1,243 @@
+{
+  "data": {
+    "route": [
+      {
+        "departure": "00:15",
+        "departureDay": 1,
+        "distance": 0,
+        "isHalt": true,
+        "platform": "8",
+        "sequence": 1,
+        "speedToNextStationKmph": 20,
+        "station": {
+          "code": "NDLS",
+          "lat": 28.6419258,
+          "lng": 77.2217499,
+          "name": "New Delhi"
+        }
+      },
+      {
+        "arrival": "00:18",
+        "arrivalDay": 1,
+        "departure": "00:19",
+        "departureDay": 1,
+        "distance": 1,
+        "isHalt": true,
+        "sequence": 2,
+        "speedToNextStationKmph": 40,
+        "station": {
+          "code": "CSB",
+          "lat": 28.6334521,
+          "lng": 77.2266682,
+          "name": "Shivaji Bridge"
+        }
+      },
+      {
+        "arrival": "00:22",
+        "arrivalDay": 1,
+        "departure": "00:23",
+        "departureDay": 1,
+        "distance": 3,
+        "isHalt": true,
+        "platform": "3",
+        "sequence": 3,
+        "speedToNextStationKmph": 40,
+        "station": {
+          "code": "TKJ",
+          "lat": 28.6281166,
+          "lng": 77.2374037,
+          "name": "Tilak Bridge"
+        }
+      },
+      {
+        "arrival": "00:29",
+        "arrivalDay": 1,
+        "departure": "00:30",
+        "departureDay": 1,
+        "distance": 7,
+        "isHalt": true,
+        "platform": "4",
+        "sequence": 4,
+        "speedToNextStationKmph": 40,
+        "station": {
+          "code": "NZM",
+          "lat": 28.5889646,
+          "lng": 77.2535202,
+          "name": "Hazrat Nizamuddin Jn"
+        }
+      },
+      {
+        "arrival": "00:36",
+        "arrivalDay": 1,
+        "departure": "00:37",
+        "departureDay": 1,
+        "distance": 11,
+        "isHalt": true,
+        "platform": "3",
+        "sequence": 5,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "OKA",
+          "lat": 28.5594753,
+          "lng": 77.2656232,
+          "name": "Okhla"
+        }
+      },
+      {
+        "arrival": "00:44",
+        "arrivalDay": 1,
+        "departure": "00:45",
+        "departureDay": 1,
+        "distance": 18,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 6,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "TKD",
+          "lat": 28.5034421,
+          "lng": 77.2970508,
+          "name": "Tuglakabad"
+        }
+      },
+      {
+        "arrival": "00:51",
+        "arrivalDay": 1,
+        "departure": "00:51",
+        "departureDay": 1,
+        "distance": 24,
+        "isHalt": false,
+        "sequence": 7,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "TKDC",
+          "lat": 28.451694,
+          "lng": 77.304196,
+          "name": "Tuglakabad Jn Cabin"
+        }
+      },
+      {
+        "arrival": "00:55",
+        "arrivalDay": 1,
+        "departure": "00:56",
+        "departureDay": 1,
+        "distance": 28,
+        "isHalt": true,
+        "platform": "3",
+        "sequence": 8,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "FDB",
+          "lat": 28.4107617,
+          "lng": 77.3070774,
+          "name": "Faridabad"
+        }
+      },
+      {
+        "arrival": "01:00",
+        "arrivalDay": 1,
+        "departure": "01:01",
+        "departureDay": 1,
+        "distance": 32,
+        "isHalt": true,
+        "platform": "1",
+        "sequence": 9,
+        "speedToNextStationKmph": 60,
+        "station": {
+          "code": "FDN",
+          "lat": 28.377372,
+          "lng": 77.3094718,
+          "name": "Faridabad Nw Tn"
+        }
+      },
+      {
+        "arrival": "01:05",
+        "arrivalDay": 1,
+        "departure": "01:06",
+        "departureDay": 1,
+        "distance": 36,
+        "isHalt": true,
+        "platform": "4",
+        "sequence": 10,
+        "speedToNextStationKmph": 75,
+        "station": {
+          "code": "BVH",
+          "lat": 28.3402623,
+          "lng": 77.3121997,
+          "name": "Ballabgarh"
+        }
+      },
+      {
+        "arrival": "01:14",
+        "arrivalDay": 1,
+        "departure": "01:15",
+        "departureDay": 1,
+        "distance": 46,
+        "isHalt": true,
+        "platform": "4",
+        "sequence": 11,
+        "speedToNextStationKmph": 33,
+        "station": {
+          "code": "AST",
+          "lat": 28.2531761,
+          "lng": 77.3236156,
+          "name": "Asaoti"
+        }
+      },
+      {
+        "arrival": "01:35",
+        "arrivalDay": 1,
+        "distance": 57,
+        "isHalt": true,
+        "platform": "1A",
+        "sequence": 12,
+        "station": {
+          "code": "PWL",
+          "lat": 28.1515806,
+          "lng": 77.3417952,
+          "name": "Palwal"
+        }
+      }
+    ],
+    "train": {
+      "avgSpeed": 42.8,
+      "category": "Local",
+      "coachPosition": "GEN-GEN-GEN-GEN-GEN-GEN-GEN-GEN-GEN",
+      "destination": {
+        "code": "PWL",
+        "lat": 28.1515806,
+        "lng": 77.3417952,
+        "name": "Palwal"
+      },
+      "distance": 57,
+      "duration": 80,
+      "maxSpeed": 75,
+      "name": "New Delhi - Palwal Local",
+      "number": "64076",
+      "runDays": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "source": {
+        "code": "NDLS",
+        "lat": 28.6419258,
+        "lng": 77.2217499,
+        "name": "New Delhi"
+      },
+      "totalHalts": 11,
+      "type": "EMU"
+    }
+  },
+  "meta": {
+    "executionTime": 5,
+    "source": "database",
+    "timestamp": "2026-08-28T21:00:53+05:30",
+    "traceId": "d4fe3b5a-9977-44ef-98b8-bdf4535b6c05"
+  },
+  "success": true
+}

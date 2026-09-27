@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Generated instances are reproducible from a seed, so not tracked.
+data/instance.json
+# BUT the RailRadar cache and the derived sections ARE tracked, deliberately:
+# they are public timetable data, and committing them means anyone can
+# reproduce every number in the deck offline, with no API key. See README.
+.DS_Store
+
+# Secrets — never commit
+.env
+.env.local
+*.key
+web/tsconfig.tsbuildinfo
+# data/cache/plans/ is deliberately NOT ignored. The solved plans ship in
+# the image: they are deterministic, they total half a megabyte, and solving
+# them at run time needs 1,148 MB against a 512 MB container. Same reasoning
+# as the RailRadar responses above — committed so a deployment reproduces the
+# same numbers with no API key, no network, and no solve.
+web/out/

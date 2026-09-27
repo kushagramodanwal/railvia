@@ -1,0 +1,460 @@
+/* ── Landing page ──────────────────────────────────────────────────────
+   Daylight on the line.
+
+   The app behind the sign-in follows the viewer's light/dark preference.
+   This page commits to one look: a calm, low-contrast daylight palette that
+   holds up on a projector in a bright room. Every colour is declared, so it
+   never borrows a dark ground from the theme stamp on <html>.
+
+   All classes are lp- prefixed and every token is scoped to .lp, so nothing
+   here reaches into the application's stylesheet or vice versa. */
+
+.lp {
+  /* Ground and surfaces: cool, quiet, a shade off white — an overcast
+     morning at a station rather than paper. */
+  --lp-ground: #f3f7f9;
+  --lp-surface: #ffffff;
+  --lp-soft: #e7eff3;
+  --lp-line: #d3e0e8;
+  --lp-line-soft: #e3ecf1;
+
+  /* Ink: deep petrol, never pure black. Easier to sit with. */
+  --lp-ink: #16262f;
+  --lp-ink-2: #43606f;
+  --lp-ink-3: #6d8899;
+
+  /* Weathered rail steel, and the deep blue of divisional signage. */
+  --lp-steel: #8aa3b2;
+  --lp-rail: #1f5578;
+  --lp-rail-soft: #e2edf5;
+
+  /* Signal aspects. Used only where they mean something: red is what today
+     costs, green is what is saved. */
+  --lp-waste: #c2453a;
+  --lp-waste-soft: #fbe9e7;
+  --lp-win: #1a7d59;
+  --lp-win-soft: #e0f2ea;
+  --lp-amber: #a96c14;
+  --lp-amber-soft: #fbf0dd;
+
+  /* The three departments, matching the planner's own colours. */
+  --lp-engg: #a8560a;
+  --lp-trd: #5f27bd;
+  --lp-snt: #0d6b64;
+
+  --lp-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --lp-label: "Archivo Narrow", "Archivo", ui-sans-serif, sans-serif;
+  --lp-body: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --lp-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  background: var(--lp-ground);
+  color: var(--lp-ink);
+  font: 400 17px/1.65 var(--lp-body);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lp *, .lp *::before, .lp *::after { box-sizing: border-box; }
+.lp a { color: inherit; text-decoration: none; }
+.lp :where(a, button):focus-visible {
+  outline: 2px solid var(--lp-rail);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── the spine ───────────────────────────────────────────────────────
+   A route diagram down the left edge: one line, a tick at each stop. The
+   page is a journey through the argument, and the ticks mark the stations.
+   Hidden on narrow screens, where there is no margin to spare. */
+/* Positioned inside the content column, not against the viewport — the
+   section ticks are measured from the column too, and a rail anchored to the
+   window would drift away from them at every width. */
+.lp-wrap {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 clamp(24px, 4vw, 64px);
+}
+.lp-rail {
+  position: absolute;
+  left: clamp(12px, 2vw, 32px);
+  top: 0; bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom, transparent, var(--lp-line) 8%, var(--lp-line) 92%, transparent);
+  pointer-events: none;
+  z-index: 0;
+}
+.lp-section { position: relative; padding: 96px 0; }
+.lp-section + .lp-section { border-top: 1px solid var(--lp-line-soft); }
+/* The tick that marks this section on the spine. */
+.lp-section::before {
+  content: "";
+  position: absolute;
+  left: calc(-1 * clamp(12px, 2vw, 32px));
+  top: 96px;
+  width: 15px; height: 1px;
+  background: var(--lp-steel);
+}
+@media (max-width: 1080px) {
+  .lp-rail { display: none; }
+  .lp-section::before { display: none; }
+}
+
+/* ── header ──────────────────────────────────────────────────────── */
+.lp-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 0;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.lp-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font: 800 24px/1 var(--lp-display);
+  letter-spacing: -0.02em;
+  color: var(--lp-ink);
+}
+.lp-mark {
+  width: 116px;
+  height: 74px;
+  border-radius: 8px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+.lp-mark-img { padding: 0; overflow: visible; background: transparent; }
+.lp-mark-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 4px 14px rgba(22, 38, 47, 0.12));
+  transition: transform .2s ease;
+}
+.lp-brand:hover .lp-mark-img img {
+  transform: scale(1.05);
+}
+.lp-top-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.lp-ir-logo {
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.08));
+  transition: transform .2s ease;
+}
+.lp-ir-logo:hover {
+  transform: scale(1.05);
+}
+
+.lp-btn {
+  font: 600 14.5px/1 var(--lp-body);
+  padding: 12px 20px; border-radius: 8px;
+  border: 1px solid var(--lp-rail);
+  background: var(--lp-rail); color: #fff;
+  display: inline-flex; align-items: center; gap: 8px;
+  cursor: pointer;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.lp-btn:hover { background: #174563; }
+.lp-btn:active { transform: translateY(1px); }
+.lp-btn.ghost {
+  background: transparent; color: var(--lp-rail);
+  border-color: var(--lp-line);
+}
+.lp-btn.ghost:hover { background: var(--lp-rail-soft); border-color: var(--lp-rail); }
+
+/* ── hero ────────────────────────────────────────────────────────── */
+.lp-hero { padding: 48px 0 80px; }
+.lp-eyebrow {
+  font: 600 12.5px/1 var(--lp-label);
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--lp-ink-3);
+  display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+}
+.lp-eyebrow span::after { content: "·"; margin-left: 12px; color: var(--lp-steel); }
+.lp-eyebrow span:last-child::after { content: ""; }
+
+.lp-hero h1 {
+  font: 800 clamp(44px, 6.2vw, 82px)/0.98 var(--lp-display);
+  letter-spacing: -0.035em;
+  margin: 22px 0 0;
+  text-wrap: balance;
+  max-width: 25ch;
+}
+.lp-hero h1 em { font-style: normal; color: var(--lp-steel); }
+.lp-lede {
+  font-size: clamp(18.5px, 1.35vw, 22px);
+  line-height: 1.6;
+  color: var(--lp-ink-2);
+  max-width: 82ch;
+  margin: 22px 0 0;
+}
+.lp-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
+
+/* ── the signature: three closures collapsing into one ───────────── */
+.lp-demo {
+  margin-top: 56px;
+  background: var(--lp-surface);
+  border: 1px solid var(--lp-line);
+  border-radius: 14px;
+  padding: 32px clamp(20px, 3vw, 40px) 28px;
+  box-shadow: 0 1px 2px rgba(22, 38, 47, .04), 0 12px 32px rgba(22, 38, 47, .06);
+  width: 100%;
+}
+.lp-demo-head {
+  display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+.lp-demo-head b { font: 700 16px/1.3 var(--lp-display); }
+.lp-demo-head span {
+  font: 400 14px/1.4 var(--lp-body); color: var(--lp-ink-3);
+}
+.lp-demo figure { margin: 0; }
+.lp-demo svg { display: block; width: 100%; height: auto; }
+.lp-demo figcaption {
+  margin-top: 20px; padding-top: 16px;
+  border-top: 1px solid var(--lp-line-soft);
+  font-size: 15px; color: var(--lp-ink-2); line-height: 1.6;
+  max-width: 105ch;
+}
+.lp-demo figcaption b { color: var(--lp-ink); font-weight: 600; }
+ 
+/* ── generic section type ────────────────────────────────────────── */
+.lp-section h2 {
+  font: 700 clamp(28px, 3.8vw, 44px)/1.12 var(--lp-display);
+  letter-spacing: -0.026em; margin: 0 0 16px; text-wrap: balance;
+  max-width: 32ch;
+}
+.lp-section p { max-width: 82ch; color: var(--lp-ink-2); margin: 0 0 16px; }
+.lp-section p strong { color: var(--lp-ink); font-weight: 600; }
+
+/* ── numbers ─────────────────────────────────────────────────────── */
+.lp-figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; margin: 40px 0 8px; }
+.lp-fig b {
+  display: block; font: 800 clamp(36px, 5vw, 52px)/1 var(--lp-display);
+  letter-spacing: -0.03em; font-variant-numeric: tabular-nums;
+}
+.lp-fig.win b { color: var(--lp-win); }
+.lp-fig span {
+  display: block; margin-top: 8px; font-size: 15px; color: var(--lp-ink-2);
+  max-width: 32ch;
+}
+.lp-caveat {
+  margin-top: 28px; padding: 16px 20px;
+  background: var(--lp-surface); border: 1px solid var(--lp-line);
+  border-left: 3px solid var(--lp-amber);
+  border-radius: 0 10px 10px 0;
+  font-size: 14.5px; color: var(--lp-ink-2);
+}
+.lp-caveat b { color: var(--lp-ink); font-weight: 600; }
+
+/* ── provenance ──────────────────────────────────────────────────── */
+.lp-prov { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 36px; }
+.lp-prov > div {
+  background: var(--lp-surface); border: 1px solid var(--lp-line);
+  border-radius: 12px; padding: 20px 22px;
+}
+.lp-prov .badge {
+  font: 700 10.5px/1 var(--lp-label); letter-spacing: 0.11em; text-transform: uppercase;
+  padding: 5px 9px; border-radius: 999px; display: inline-block;
+}
+.lp-prov .badge.real { background: var(--lp-win-soft); color: var(--lp-win); }
+.lp-prov .badge.sim { background: var(--lp-amber-soft); color: var(--lp-amber); }
+.lp-prov h3 { font: 600 16px/1.3 var(--lp-display); margin: 13px 0 6px; }
+.lp-prov p { font-size: 14.5px; margin: 0; }
+
+/* ── close ───────────────────────────────────────────────────────── */
+.lp-close { text-align: left; }
+.lp-close h2 { max-width: 32ch; }
+
+.lp-foot {
+  border-top: 1px solid var(--lp-line-soft);
+  padding: 30px 0 56px;
+  font-size: 14px; color: var(--lp-ink-3);
+  display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; align-items: center;
+  width: 100%;
+}
+.lp-foot a { color: var(--lp-rail); font-weight: 600; }
+
+@media (max-width: 720px) {
+  .lp-wrap { padding: 0 20px; }
+  .lp-section { padding: 64px 0; }
+  .lp-hero { padding: 32px 0 56px; }
+  .lp-demo { padding: 20px 16px 16px; }
+  .lp-brand { font-size: 20px; gap: 10px; }
+  .lp-mark { width: 85px; height: 54px; }
+  .lp-ir-logo { width: 60px; height: 60px; }
+}
+
+/* ── motion ──────────────────────────────────────────────────────
+   One orchestrated moment: the three closures merging. Everything else
+   holds still. */
+@keyframes lp-merge {
+  0%, 22%   { opacity: 1; }
+  46%, 100% { opacity: 0; }
+}
+@keyframes lp-appear {
+  0%, 40%   { opacity: 0; }
+  64%, 100% { opacity: 1; }
+}
+.lp-anim .merge-out { animation: lp-merge 5.5s ease-in-out infinite; }
+.lp-anim .merge-in  { animation: lp-appear 5.5s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-anim .merge-out,
+  .lp-anim .merge-in { animation: none; }
+  /* Show the resolved state rather than the first frame: the point of the
+     figure is the outcome, not the transition. */
+  .lp-anim .merge-out { opacity: 0; }
+  .lp-anim .merge-in { opacity: 1; }
+}
+
+/* ── the line under possession ─────────────────────────────────────
+   A side elevation of what a closure actually is: rails, the overhead
+   line above them, a signal, and a train held at it. Each department's
+   equipment is on the same stretch, which is the page's whole argument
+   drawn rather than asserted. Line-art in the permanent-way-manual
+   register, not an illustration of a train. */
+.lp-scene {
+  margin-top: 44px;
+  background: var(--lp-surface);
+  border: 1px solid var(--lp-line);
+  border-radius: 14px;
+  padding: 28px clamp(18px, 2.5vw, 36px) 24px;
+  width: 100%;
+}
+.lp-scene svg { display: block; width: 100%; height: auto; }
+/* Not overflow:hidden on the card — that clips the scroller inside it, so a
+   narrow screen showed the left third of the drawing with no way to reach
+   the rest. */
+.lp-scene .scene-scroll { overflow-x: auto; border-radius: 6px; }
+.lp-scene figcaption {
+  margin-top: 18px; padding-top: 14px;
+  border-top: 1px solid var(--lp-line-soft);
+  font-size: 15px; color: var(--lp-ink-2); line-height: 1.6; max-width: 95ch;
+}
+.lp-scene figcaption b { color: var(--lp-ink); font-weight: 600; }
+@media (max-width: 720px) {
+  .lp-scene { padding: 18px 14px 14px; }
+  .lp-scene svg { min-width: 640px; }
+}
+
+/* The travelled part of the spine, drawn over the faint full line as the
+   page is scrolled. Same geometry, stronger colour — the page lays track
+   behind you. */
+.lp-rail-draw {
+  width: 2px;
+  background: linear-gradient(
+    to bottom, transparent, var(--lp-rail) 4%, var(--lp-rail) 96%, transparent);
+  opacity: 0.55;
+  z-index: 1;
+}
+
+/* ── the brand mark ─────────────────────────────────────────────────
+   The logo sits in the same 30px square the drawn glyph did, so the header
+   does not reflow when the image arrives. object-fit keeps whatever aspect
+   the file has without distorting it. */
+.lp-mark-img { padding: 0; overflow: hidden; background: transparent; }
+.lp-mark-img img {
+  width: 100%; height: 100%; object-fit: contain; display: block;
+}
+
+/* ── the three departments ──────────────────────────────────────────
+ *
+ * Alternating rows rather than a card grid. Three cards side by side give
+ * each department a caption; a full row gives it a photograph and room to
+ * say why it needs the track, which is the thing the page is arguing about.
+ */
+.lp-depts .lp-dept-rows {
+  display: grid;
+  gap: 64px;
+  margin-top: 56px;
+}
+
+.lp-dept-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(36px, 4vw, 64px);
+  align-items: center;
+}
+
+/* Every other row turns over, so the eye is not marching down one column.
+   Order rather than direction: reversing with `direction` would flip the
+   text too. */
+.lp-dept-row:nth-child(even) .lp-dept-img { order: 2; }
+
+.lp-dept-img {
+  position: relative;
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--lp-surface);
+  border: 1px solid var(--lp-line);
+  /* Reserved before the image loads, so the row does not jump. */
+  aspect-ratio: 1200 / 670;
+}
+.lp-dept-img img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+
+/* The department's colour, carried onto the photograph as a bar down its
+   leading edge — the same three hues used everywhere else in the product. */
+.lp-dept-edge {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+}
+
+.lp-dept-body { min-width: 0; }
+
+.lp-dept-code {
+  display: inline-flex; align-items: center; gap: 7px;
+  font: 700 12px/1 var(--lp-label);
+  letter-spacing: 0.12em; text-transform: uppercase;
+}
+.lp-dept-code i { width: 8px; height: 8px; border-radius: 50%; }
+
+.lp-dept-body h3 {
+  font: 700 clamp(24px, 2.8vw, 34px)/1.15 var(--lp-display);
+  letter-spacing: -0.022em;
+  margin: 12px 0 10px;
+}
+.lp-dept-body p {
+  color: var(--lp-ink-2);
+  margin: 0 0 14px;
+  max-width: 68ch;
+}
+.lp-dept-holds { color: var(--lp-ink) !important; font-weight: 600; }
+
+.lp-dept-sys {
+  margin-top: 18px; padding-top: 14px;
+  border-top: 1px solid var(--lp-line-soft);
+  font: 500 13px/1.5 var(--lp-mono);
+  color: var(--lp-ink-3);
+}
+.lp-dept-sys b { color: var(--lp-ink); font-weight: 600; }
+.lp-dept-sys span { display: block; margin-top: 2px; }
+
+@media (max-width: 860px) {
+  .lp-depts .lp-dept-rows { gap: 48px; }
+  .lp-dept-row { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  /* Stacked, the picture always leads — the alternation only reads as
+     rhythm when there are two columns to alternate between. */
+  .lp-dept-row:nth-child(even) .lp-dept-img { order: 0; }
+}
