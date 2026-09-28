@@ -5,6 +5,82 @@ import { useAuth } from "./AuthProvider";
 import { Icon, PATH } from "./icons";
 import { TrainLoader } from "./TrainLoader";
 
+/** Demo accounts for SIH judges. Remove this block after judging. */
+const DEMO_ACCOUNTS = [
+  {
+    role: "Divisional Head",
+    note: "grants closures",
+    email: "head@example.com",
+    password: "head@123",
+  },
+  {
+    role: "Section Engineer",
+    note: "reports work as done",
+    email: "user@example.com",
+    password: "user@123",
+  },
+];
+
+function CopyBtn({ text }: { text: string }) {
+  const [done, setDone] = useState(false);
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        navigator.clipboard.writeText(text);
+        setDone(true);
+        setTimeout(() => setDone(false), 1200);
+      }}
+      style={{
+        marginLeft: 8,
+        padding: "1px 8px",
+        fontSize: 11,
+        cursor: "pointer",
+        background: "transparent",
+        color: "var(--text-muted)",
+        border: "1px solid var(--border)",
+        borderRadius: "var(--radius-sm)",
+      }}
+    >
+      {done ? "Copied" : "Copy"}
+    </button>
+  );
+}
+
+function DemoBox() {
+  return (
+    <div
+      style={{
+        marginTop: 20,
+        padding: 12,
+        fontSize: 13,
+        border: "1px dashed var(--border)",
+        borderRadius: "var(--radius)",
+        background: "var(--surface)",
+        color: "var(--text)",
+      }}
+    >
+      <b>Demo login (for SIH judges)</b>
+      {DEMO_ACCOUNTS.map((d) => (
+        <div key={d.email} style={{ marginTop: 10 }}>
+          <div>
+            <b>{d.role}</b>{" "}
+            <span style={{ color: "var(--text-muted)" }}>({d.note})</span>
+          </div>
+          <div style={{ marginTop: 4 }}>
+            Email: <code>{d.email}</code>
+            <CopyBtn text={d.email} />
+          </div>
+          <div style={{ marginTop: 4 }}>
+            Password: <code>{d.password}</code>
+            <CopyBtn text={d.password} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 /** Everything behind a sign-in.
  *
  * Two roles exist: a divisional head, who grants closures, and a section
@@ -17,20 +93,26 @@ import { TrainLoader } from "./TrainLoader";
  *  name the three possibilities rather than repeating the bare message. */
 function explain(raw: string): string {
   if (/invalid login credentials/i.test(raw)) {
-    return "Invalid login credentials. Supabase gives the same message "
-      + "whether the account does not exist, the password is wrong, or the "
-      + "email has never been confirmed — check Authentication → Users in the "
-      + "Supabase dashboard, and make sure the account shows as confirmed.";
+    return (
+      "Invalid login credentials. Supabase gives the same message " +
+      "whether the account does not exist, the password is wrong, or the " +
+      "email has never been confirmed — check Authentication → Users in the " +
+      "Supabase dashboard, and make sure the account shows as confirmed."
+    );
   }
   if (/email not confirmed/i.test(raw)) {
-    return "That account exists but its email is not confirmed. Confirm it "
-      + "in Authentication → Users, or recreate it with “Auto Confirm User” "
-      + "ticked.";
+    return (
+      "That account exists but its email is not confirmed. Confirm it " +
+      "in Authentication → Users, or recreate it with “Auto Confirm User” " +
+      "ticked."
+    );
   }
   if (/fetch|network/i.test(raw)) {
-    return "Could not reach Supabase. Check NEXT_PUBLIC_SUPABASE_URL in "
-      + "web/.env.local, and restart the dev server — Next only reads env "
-      + "files at startup.";
+    return (
+      "Could not reach Supabase. Check NEXT_PUBLIC_SUPABASE_URL in " +
+      "web/.env.local, and restart the dev server — Next only reads env " +
+      "files at startup."
+    );
   }
   return raw;
 }
@@ -55,28 +137,35 @@ export function LoginGate({ children }: { children: React.ReactNode }) {
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setBusy(true); setErr(null);
-    try { await signIn(email.trim(), password); }
-    catch (e2) {
+    setBusy(true);
+    setErr(null);
+    try {
+      await signIn(email.trim(), password);
+    } catch (e2) {
       const raw = e2 instanceof Error ? e2.message : String(e2);
       setErr(explain(raw));
+    } finally {
+      setBusy(false);
     }
-    finally { setBusy(false); }
   };
 
   return (
     <div className="login-wrap">
       <div className="login">
         <div className="brand" style={{ padding: 0, marginBottom: 20 }}>
-          <span className="mark" aria-hidden="true"><Icon d={PATH.rail} size={14} /></span>
+          <span className="mark" aria-hidden="true">
+            <Icon d={PATH.rail} size={14} />
+          </span>
           <b>RailVia</b>
         </div>
 
         {!configured ? (
           <div className="setup">
             <h3>Supabase is not configured</h3>
-            <div className="note">Sign-in needs a Supabase project. Create
-              <code> web/.env.local</code> with:</div>
+            <div className="note">
+              Sign-in needs a Supabase project. Create
+              <code> web/.env.local</code> with:
+            </div>
             <pre>{`NEXT_PUBLIC_SUPABASE_URL=https://<project>.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon key>`}</pre>
             <div className="note">
@@ -85,24 +174,38 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon key>`}</pre>
             </div>
           </div>
         ) : (
-          <form onSubmit={submit}>
-            <h2 style={{ margin: "0 0 4px", fontSize: 17 }}>Sign in</h2>
-            <p className="note" style={{ marginBottom: 18 }}>
-              A <b>divisional head</b> grants closures. A <b>section engineer</b>
-              {" "}reports work as done.
-            </p>
-            <label htmlFor="email">Email</label>
-            <input id="email" type="email" autoComplete="username" required
-              value={email} onChange={(e) => setEmail(e.target.value)} />
-            <label htmlFor="password">Password</label>
-            <input id="password" type="password" autoComplete="current-password"
-              required value={password}
-              onChange={(e) => setPassword(e.target.value)} />
-            {err && <div className="login-err">{err}</div>}
-            <button type="submit" className="primary" disabled={busy}>
-              {busy ? "Signing in…" : "Sign in"}
-            </button>
-          </form>
+          <>
+            <form onSubmit={submit}>
+              <h2 style={{ margin: "0 0 4px", fontSize: 17 }}>Sign in</h2>
+              <p className="note" style={{ marginBottom: 18 }}>
+                A <b>divisional head</b> grants closures. A{" "}
+                <b>section engineer</b> reports work as done.
+              </p>
+              <label htmlFor="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                autoComplete="username"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <label htmlFor="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                autoComplete="current-password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              {err && <div className="login-err">{err}</div>}
+              <button type="submit" className="primary" disabled={busy}>
+                {busy ? "Signing in…" : "Sign in"}
+              </button>
+            </form>
+            <DemoBox />
+          </>
         )}
       </div>
     </div>
