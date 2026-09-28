@@ -20,7 +20,7 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile
     dockerContext: .
-    plan: starter          # 'free' works but sleeps after inactivity
+    plan: free          # 'free' works but sleeps after inactivity
     healthCheckPath: /api/health
     envVars:
       # The one that makes it fit. The image ships a solved plan for every
